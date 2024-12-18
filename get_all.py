@@ -214,3 +214,6 @@ print("All downloads completed.")
 # 关闭线程池执行器
 pool.shutdown(wait=True)
 print("Thread pool executor has been shut down.")
+
+db.close()
+print("All done!")
